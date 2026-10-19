@@ -1,0 +1,19 @@
+.buy {
+  @include Responsive(phoneL) {
+    margin-top: 3.5rem !important;
+    margin-bottom: 3.5rem !important;
+  }
+  &__content {
+    @include Responsive(phoneL) {
+      border: none !important;
+    }
+    &-img {
+      width: 60% !important;
+    }
+    &-title {
+      @include Responsive(phoneL) {
+        text-align: center !important;
+      }
+    }
+  }
+}

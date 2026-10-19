@@ -1,0 +1,216 @@
+//?-------- width project --------//
+.container2x1 {
+  width: 97vw;
+  margin: auto;
+}
+
+//?-------- Flex Class --------//
+.flex-center {
+  @include CenterizeTag();
+}
+
+.flex-between {
+  @include CenterizeTag($justify: space-between);
+}
+
+.flex-around {
+  @include CenterizeTag($justify: space-around);
+}
+.flex-start {
+  @include CenterizeTag($justify: flex-start);
+}
+
+//?-------- Position Class --------//
+.position-center {
+  @include PositionCenter();
+}
+//?-------- Fonts Class --------//
+.fs-1 {
+  font-size: $fs-1 !important;
+}
+.fs-2 {
+  font-size: $fs-2 !important;
+}
+.fs-3 {
+  font-size: $fs-3 !important;
+}
+.fs-4 {
+  font-size: $fs-4 !important;
+}
+.fs-5 {
+  font-size: $fs-5 !important;
+}
+.fs-6 {
+  font-size: $fs-6 !important;
+}
+.fs-7 {
+  font-size: $fs-7 !important;
+}
+.fs-8 {
+  font-size: $fs-8 !important;
+}
+.fs-9 {
+  font-size: $fs-9 !important;
+}
+.fs-10 {
+  font-size: $fs-10 !important;
+}
+//?-------- Width Class --------//
+.w-1 {
+  width: $w-1 !important;
+}
+.w-2 {
+  width: $w-2 !important;
+}
+.w-3 {
+  width: $w-3 !important;
+}
+.w-4 {
+  width: $w-4 !important;
+}
+.w-5 {
+  width: $w-5 !important;
+}
+.w-6 {
+  width: $w-6 !important;
+}
+.w-7 {
+  width: $w-7 !important;
+}
+.w-8 {
+  width: $w-8 !important;
+}
+.w-9 {
+  width: $w-9 !important;
+}
+
+.w-10 {
+  width: $w-10 !important;
+}
+.w-11 {
+  width: $w-11 !important;
+}
+.w-12 {
+  width: $w-12 !important;
+}
+.w-13 {
+  width: $w-13 !important;
+}
+.w-14 {
+  width: $w-14 !important;
+}
+.w-15 {
+  width: $w-15 !important;
+}
+.w-16 {
+  width: $w-16 !important;
+}
+.w-17 {
+  width: $w-17 !important;
+}
+.w-18 {
+  width: $w-18 !important;
+}
+.w-19 {
+  width: $w-19 !important;
+}
+
+.w-20 {
+  width: $w-20 !important;
+}
+.w-30 {
+  width: $w-30 !important;
+}
+.w-40 {
+  width: $w-40 !important;
+}
+.w-50 {
+  width: $w-50 !important;
+}
+
+//?-------- Height Class --------//
+.h-1 {
+  height: $h-1 !important;
+}
+.h-2 {
+  height: $h-2 !important;
+}
+.h-3 {
+  height: $h-3 !important;
+}
+.h-4 {
+  height: $h-4 !important;
+}
+.h-5 {
+  height: $h-5 !important;
+}
+.h-6 {
+  height: $h-6 !important;
+}
+.h-7 {
+  height: $h-7 !important;
+}
+.h-8 {
+  height: $h-8 !important;
+}
+.h-9 {
+  height: $h-9 !important;
+}
+.h-10 {
+  height: $h-10 !important;
+}
+
+.h-11 {
+  height: $h-11 !important;
+}
+.h-12 {
+  height: $h-12 !important;
+}
+.h-13 {
+  height: $h-13 !important;
+}
+.h-14 {
+  height: $h-14 !important;
+}
+.h-15 {
+  height: $h-15 !important;
+}
+
+.h-16 {
+  height: $h-16 !important;
+}
+.h-17 {
+  height: $h-17 !important;
+}
+.h-18 {
+  height: $h-18 !important;
+}
+.h-19 {
+  height: $h-19 !important;
+}
+.h-20 {
+  height: $h-20 !important;
+}
+//?-------- Border-radius Class --------//
+.border-radius {
+  border-radius: $border-radius;
+}
+
+//?-------- Ellipsis Class --------//
+
+.elipsis-1 {
+  @include LineBreak(1);
+}
+
+.elipsis-2 {
+  @include LineBreak();
+}
+
+.elipsis-3 {
+  @include LineBreak(3);
+}
+
+//?-------- Text-Align Class --------//
+.text-justify {
+  text-align: justify;
+}

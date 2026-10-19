@@ -1,0 +1,48 @@
+.slider {
+  height: 40rem;
+  margin-top: 2rem;
+  cursor: grab;
+  &__content {
+    height: 100%;
+    &-items {
+      height: 100%;
+    }
+    &-img {
+      min-height: 267px;
+      object-fit: cover;
+    }
+  }
+  .slider:hover &__item {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+  }
+  &__navigation {
+    width: 9.5rem;
+    height: 6rem;
+    position: absolute;
+    right: 6rem;
+    bottom: 3rem;
+    @include Responsive(tablet) {
+      display: none;
+    }
+  }
+  &__item {
+    width: 4rem;
+    height: 4rem;
+    background-color: $white;
+    color: $subtitle;
+    border-radius: $border-radius;
+    border: 0.1rem solid $subtitle;
+    padding: 0.8rem;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  &.swiper-button-disabled {
+    cursor: auto;
+    opacity: 0;
+    pointer-events: none;
+  }
+}

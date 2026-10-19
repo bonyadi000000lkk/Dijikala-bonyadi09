@@ -1,0 +1,21 @@
+.suggest {
+  &__content {
+    @include Responsive(tablet) {
+      cursor: grab;
+    }
+    &-item {
+      min-width: 16rem;
+    }
+  }
+  &__item {
+    width: 9rem;
+    height: 9rem;
+    background-color: rgb(200, 200, 200);
+    border-radius: $border-radius;
+    padding: 1rem;
+  }
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+}

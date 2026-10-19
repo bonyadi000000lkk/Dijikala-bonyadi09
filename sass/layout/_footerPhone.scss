@@ -1,0 +1,12 @@
+.footerPhone {
+  @include Responsive(laptab) {
+    display: none !important;
+  }
+  @include Responsive(tablet) {
+    display: inline-block !important;
+  }
+  &__content {
+    &-item {
+    }
+  }
+}

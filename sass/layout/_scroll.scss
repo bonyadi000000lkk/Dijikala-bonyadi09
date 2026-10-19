@@ -1,0 +1,34 @@
+.scroll {
+  cursor: grab;
+  &__content {
+    display: flex;
+    @include Responsive(tablet) {
+      border-radius: 0 !important;
+    }
+    &-off {
+      width: 25%;
+      padding: 0.5rem;
+    }
+    &-slide {
+      width: 17rem !important;
+      height: 27.5rem !important;
+      margin-left: 0.3rem;
+      &-img1 {
+        width: 40%;
+      }
+      &-img2 {
+        width: 80%;
+        margin-top: 1rem;
+      }
+      &-link {
+        width: 11.5rem;
+        border-radius: 5px;
+      }
+      &-time {
+        width: 2.6rem;
+        height: 2.6rem;
+        border-radius: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.dijiclub {
+  &__content {
+    @include Responsive(tablet) {
+      border-radius: 0 !important;
+    }
+    &-coll {
+      @include Responsive(phoneL) {
+        width: 100% !important;
+      }
+      @include Responsive(phone) {
+        flex-wrap: wrap !important;
+      }
+      @include CenterizeTag();
+    }
+    &-img {
+      @include Responsive(phone) {
+        width: 45%;
+      }
+    }
+    &-item {
+      @include Responsive(phone) {
+        border-radius: 1rem !important;
+      }
+    }
+    &-text {
+      @include Responsive(phone) {
+        font-size: 1.75rem !important;
+      }
+    }
+  }
+}

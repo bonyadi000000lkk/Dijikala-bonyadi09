@@ -1,0 +1,38 @@
+//!------ Utilities
+@import "utilities/functions";
+@import "utilities/variable";
+@import "utilities/mixin";
+
+//!------ Bootstrap
+@import "custom";
+
+//!------ Base
+@import "base/typograghy";
+@import "base/defult";
+@import "base/class";
+
+//!------ Vendor
+
+//!------ Themes
+
+//!------ Layout
+@import "layout/header";
+@import "layout/story";
+@import "layout/slider";
+@import "layout/brands";
+@import "layout/scroll";
+@import "layout/supermarket";
+@import "layout/category";
+@import "layout/suggest";
+@import "layout/dijiplus";
+@import "layout/dijiclub";
+@import "layout/buy";
+@import "layout/mostsell";
+@import "layout/footer";
+@import "layout/footerPhone";
+@import "layout/phoneNav";
+
+//!------ Components
+@import "components/ButtnSwiper";
+//!------ Pages
+@import "pages/home";

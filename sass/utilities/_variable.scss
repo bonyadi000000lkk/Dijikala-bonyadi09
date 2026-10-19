@@ -1,0 +1,112 @@
+//!-------- Other Colors------------//
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+
+//*-------- Variable Colors ---------//
+$primary: #d22c4e;
+$secondary: #1773de;
+$secondaryDark: #3c4b6d;
+$tertiary: #faa926;
+$off1: #d32f2f;
+$off2: #941b80;
+$subtitle: #60636a;
+$border: #e0e0e2;
+$gray: #e0e1e3;
+$coloro-icon: #a9aaaf;
+$success: #71bc2b;
+
+$theme-colors: (
+  "border": $border,
+  "primary": $primary,
+  "tertiary": $tertiary,
+  "secondary": $secondary,
+  "secondaryDark": $secondaryDark,
+  "off1": $off1,
+  "off2": $off2,
+  "subtitle": $subtitle,
+  "gray": $gray,
+  "coloro-icon": $coloro-icon,
+  "success": $success,
+);
+
+//*-------- Fonts  ---------//
+$fs-1: 1rem;
+$fs-2: 1.2rem;
+$fs-3: 1.3rem;
+$fs-13: 1.35rem;
+$fs-14: 1.4rem;
+$fs-4: 2rem;
+$fs-5: 2.5rem;
+$fs-6: 3rem;
+$fs-7: 3.5rem;
+$fs-8: 4rem;
+$fs-9: 4.5rem;
+$fs-10: 5rem;
+
+//*-------- whidth  ---------//
+$w-1: 1rem;
+$w-2: 2rem;
+$w-3: 3rem;
+$w-4: 4rem;
+$w-5: 5rem;
+$w-6: 6rem;
+$w-7: 7rem;
+$w-8: 8rem;
+$w-9: 9rem;
+$w-10: 10rem;
+$w-11: 11rem;
+$w-12: 12rem;
+$w-13: 13rem;
+$w-14: 14rem;
+$w-15: 15rem;
+$w-16: 16rem;
+$w-17: 17rem;
+$w-18: 18rem;
+$w-19: 19rem;
+$w-20: 20rem;
+$w-30: 30rem;
+$w-40: 40rem;
+$w-50: 50rem;
+
+//*-------- Height  ---------//
+$h-1: 1rem;
+$h-2: 2rem;
+$h-3: 3rem;
+$h-4: 4rem;
+$h-5: 5rem;
+$h-6: 6rem;
+$h-7: 7rem;
+$h-8: 8rem;
+$h-9: 9rem;
+$h-10: 10rem;
+$h-11: 11rem;
+$h-12: 12rem;
+$h-13: 13rem;
+$h-14: 14rem;
+$h-15: 15rem;
+$h-16: 16rem;
+$h-17: 17rem;
+$h-18: 18rem;
+$h-19: 19rem;
+$h-20: 20rem;
+//*-------- border  ---------//
+$border-radius: 50%;

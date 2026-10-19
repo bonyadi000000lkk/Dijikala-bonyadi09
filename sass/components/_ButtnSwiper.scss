@@ -1,0 +1,12 @@
+.story__btn {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: $white;
+  color: $subtitle;
+  border-radius: $border-radius;
+  border: 0.1rem solid $subtitle;
+  padding: 0.8rem;
+  @include Responsive(tablet) {
+    display: none;
+  }
+}

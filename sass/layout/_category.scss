@@ -1,0 +1,14 @@
+.category {
+  &__title {
+    @include Responsive(phoneL) {
+      text-align: center !important;
+    }
+  }
+  &__items {
+    min-width: 15rem;
+    &-img {
+      width: 12rem;
+      height: auto;
+    }
+  }
+}

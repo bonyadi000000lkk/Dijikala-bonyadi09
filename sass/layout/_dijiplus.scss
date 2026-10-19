@@ -1,0 +1,32 @@
+.dijiplus {
+  &__content {
+    @include Responsive(tablet) {
+      border-radius: 0 !important;
+    }
+    &-items {
+      @include Responsive(tablet) {
+        flex-direction: column;
+      }
+    }
+    &-item {
+      @include Responsive(tablet) {
+        width: 100% !important;
+      }
+    }
+    &-pic {
+      @include Responsive(tablet) {
+        position: static !important;
+        display: flex !important;
+        justify-content: end !important;
+      }
+    }
+    &-img {
+      @include Responsive(tablet) {
+        width: 50rem !important;
+      }
+      @include Responsive(phone) {
+        width: 35rem !important;
+      }
+    }
+  }
+}

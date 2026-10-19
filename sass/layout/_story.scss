@@ -1,0 +1,30 @@
+.story {
+  cursor: grab;
+  &__text {
+    max-width: 10rem;
+    text-align: center;
+    color: $subtitle;
+    font-size: 1.1rem;
+    @include LineBreak();
+  }
+  &__item {
+    margin-left: 1rem;
+  }
+  &__img {
+    width: 10rem;
+    height: 10rem;
+    @include Responsive(phoneL) {
+      width: 11.5rem;
+      height: 11.5rem;
+    }
+  }
+  &__btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: $white;
+    color: $subtitle;
+    border-radius: $border-radius;
+    border: 0.1rem solid $subtitle;
+    padding: 0.8rem;
+  }
+}
