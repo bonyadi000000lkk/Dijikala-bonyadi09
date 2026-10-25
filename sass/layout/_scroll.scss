@@ -5,9 +5,29 @@
     @include Responsive(tablet) {
       border-radius: 0 !important;
     }
+    @include Responsive(phone) {
+      flex-wrap: wrap !important;
+      @include CenterizeTag;
+    }
     &-off {
-      width: 25%;
-      padding: 0.5rem;
+      width: 25% !important;
+      padding: 0.5rem !important;
+      @include Responsive(phone) {
+        width: 100% !important;
+        padding: 5px 1rem 20px 1rem !important;
+        flex-direction: row !important;
+      }
+    }
+    &-pic {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      @include Responsive(phone) {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+        flex-direction: row !important;
+      }
     }
     &-slide {
       width: 17rem !important;
@@ -15,19 +35,30 @@
       margin-left: 0.3rem;
       &-img1 {
         width: 40%;
+        @include Responsive(phone) {
+          width: 20% !important;
+          display: none !important;
+        }
       }
       &-img2 {
-        width: 80%;
-        margin-top: 1rem;
+        width: 80% !important;
+        margin-top: 1rem !important;
+        @include Responsive(phone) {
+          width: 100px !important;
+          margin-top: 0 !important;
+        }
       }
       &-link {
-        width: 11.5rem;
-        border-radius: 5px;
+        width: 11.5rem !important;
+        border-radius: 5px !important;
+        @include Responsive(phone) {
+          color: #fff !important;
+        }
       }
       &-time {
-        width: 2.6rem;
-        height: 2.6rem;
-        border-radius: 5px;
+        width: 2.6rem !important;
+        height: 2.6rem !important;
+        border-radius: 5px !important;
       }
     }
   }

@@ -2,6 +2,11 @@
   height: 40rem;
   margin-top: 2rem;
   cursor: grab;
+  // phone: rem is scaled down, so use fixed px and crop toward the text
+  @include Responsive(phone) {
+    height: auto;
+    margin-top: 1rem;
+  }
   &__content {
     height: 100%;
     &-items {
@@ -10,6 +15,12 @@
     &-img {
       min-height: 267px;
       object-fit: cover;
+      @include Responsive(phone) {
+        width: 100%;
+        height: 170px !important;
+        min-height: 0;
+        object-position: 72% center; // text sits on the right of the artwork
+      }
     }
   }
   .slider:hover &__item {
