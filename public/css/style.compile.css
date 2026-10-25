@@ -45401,6 +45401,8 @@ body {
 .scroll__content-slide-link {
   width: 11.5rem !important;
   border-radius: 5px !important;
+  color: #fff !important;
+  align-items: center !important;
 }
 @media only screen and (max-width: 36em) {
   .scroll__content-slide-link {
